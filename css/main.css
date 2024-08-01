@@ -5285,3 +5285,23 @@ a.credit {
 .section {
   padding-bottom: 0; }
 
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000; /* Fondo negro para el contenedor del video */
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el video para cubrir el contenedor sin distorsionarlo */
+    
+  }
+
