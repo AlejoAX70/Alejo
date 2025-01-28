@@ -1,2 +1,0 @@
-# Alejo
-Hoja de vida
